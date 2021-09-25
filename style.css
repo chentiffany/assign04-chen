@@ -4,7 +4,6 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .wrapper{
-    display: flex;
     justify-content: center;
 }
 h1{
@@ -16,6 +15,7 @@ h4{
 .picturesOfChicago{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 682px;
-    height: 454px;
+    height: 454px;   
 }
