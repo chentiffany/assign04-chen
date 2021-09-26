@@ -1,13 +1,18 @@
 body{
-    background-color:goldenrod;
+    background-color:peru;
     border: 5px darkolivegreen;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%; 
+    justify-self: center;
+    margin: auto;
+    color:moccasin;
 }
 .wrapper{
     justify-content: center;
 }
 h1{
     text-align: center;
+    text-shadow: 2px 2px peru;
 }
 h4{
     text-align: center;
@@ -16,7 +21,64 @@ nav{
     text-align: center;
 }
 .picturesOfChicago{
+    margin-top: 15%;
     display: flex;
-    width: 682px;
-    height: 454px;   
+    justify-content: center;
+    padding: 10px;
+}
+.otherPicture{
+    display: flex;
+    justify-content: center; 
+    padding: 15px; 
+}
+.firstPic{
+    float: left;
+}
+.neighborhoodTypeBeat{
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    border: solid 5px moccasin;
+    text-shadow: 2px 2px peru;
+    background-color: darkolivegreen;
+    justify-self: center;
+    text-align: center;
+    list-style-position: inside;
+}
+.begin{
+    background-color: darkolivegreen;
+    border: solid 5px darkolivegreen;
+    position: fixed;
+    width: 60%;
+}
+h3{
+    text-shadow: 2px 2px darkolivegreen;
+}
+.column{
+    column-count: 2;
+}
+.foodSection{
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    border: solid 5px moccasin;
+    text-shadow: 2px 2px peru;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+.foodSection:hover{
+background-color: peru;
+border: transparent;
+}
+.theFormSection{
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    border: solid 5px darkolivegreen;
+    color: darkolivegreen;
+    background-color: moccasin;
+    text-align: center;
+}
+.daBEAN{
+    justify-self: center;
 }
