@@ -9,6 +9,8 @@
     </head>
     <body> 
         <!--Chicago titling + fun subheading of "the windy city" -->
+        <div class="everything">
+        <div class="begin">
         <div class="wrapper">
         <h1><strong>Chicago</strong></h1>
         <h4><em>the windy city</em></h4>
@@ -18,19 +20,22 @@
             <a href="https://wustlcse204.github.io/assignment03_chen/">THE BEAN</a>
         </nav>
         </div>
-        <hr>
+    </div>
+    <hr>
         <div class="picturesOfChicago">
-            <img src="https://globalgrasshopper.com/wp-content/uploads/2020/07/Most-romantic-hotels-in-Chicago.jpg" alt="chicago picture"
-            width="420"
-            height="227">
-            <img src="https://www.cjr.org/wp-content/uploads/2019/10/AdobeStock_138401239-686x371.jpeg" alt="another chicago picture"
+            <img class="firstPic" src="https://www.cjr.org/wp-content/uploads/2019/10/AdobeStock_138401239-686x371.jpeg" alt="another chicago picture"
             width="341"
             height="227">
         </div>
-        <hr>
+        <div class="otherPicture">
+         <img src="https://globalgrasshopper.com/wp-content/uploads/2020/07/Most-romantic-hotels-in-Chicago.jpg" alt="chicago picture"
+            width="420"
+            height="227">
+        </div>
         <!--Creating a list of neighborhoods to visit-->
-
-        <h3 class="neighborhoodTypeBeat">Neighborhoods To Visit</h3>
+        <div class="column">
+        <div  class="neighborhoodTypeBeat">
+        <h3 class="neighborhoodTitle">Neighborhoods To Visit</h3>
             <ul>
                 <li>Chinatown!</li>
                 <li>Lincoln Park</li>
@@ -40,8 +45,9 @@
                 <li>Wicker Park</li>
             </ul>
         <!--new heading with places to eat followed by table with details about recommendations-->
-        <hr>
-        <h3 id="foodSection">Places to Eat</h3>
+    </div>
+    <div class="foodSection">  
+    <h3 id="foodSection">Places to Eat</h3>
         <!--start of table-->
         <table>
             <thead>
@@ -84,11 +90,13 @@
                 </tr>
             </tbody>
             </table>
+        </div>  
+        </div>
             <!--this is where the form is with the sports teams lol-->
             <hr id="separator">
             <div class="theFormSection">
                 <p>
-                CHOOSE A TEAM:    
+                <h3>CHOOSE A TEAM:</h3>   
                 </p>
                 <form method="GET">
                     <input type="radio" name="team" value="Cubs"> Cubs <br>
@@ -100,6 +108,7 @@
                 </form>
             </div>
             <hr>
+            <div class="daBEAN">
             <h3> WHERE IS THE BEAN (Cloud Gate Park)</h3>
             <!--picture of the bean-->
             <img src="https://cdn.vox-cdn.com/thumbor/NaIG1XzEhhqExdyf6-6dBVYAG_k=/0x0:7360x4912/1200x800/filters:focal(3208x2597:4384x3773)/cdn.vox-cdn.com/uploads/chorus_image/image/60127725/shutterstock_1109460509.0.jpg"
@@ -108,5 +117,7 @@
             height="400">
             <!-- from https://www.embedgooglemap.net/ -->
            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%20201%20E%20Randolph%20St,%20Chicago,%20IL%2060602&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe><a href="https://123movies-to.org"></a><br>
+        </div>
+        </div>
         </body>
 </html>
